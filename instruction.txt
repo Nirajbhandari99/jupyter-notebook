@@ -1,0 +1,13 @@
+ Instructions
+
+1. Install required libraries:
+   pip install pandas numpy seaborn matplotlib scikit-learn openpyxl
+
+2. Make sure the dataset (heart_data.xlsx) is in the same folder as this script.
+   
+
+This script:
+- Cleans and preprocesses the dataset
+- Performs EDA with plots (countplots, heatmaps, histograms)
+- Trains multiple models (Logistic Regression, Decision Tree, Random Forest, etc.)
+- Evaluates results with metrics, ROC curves, and confusion matrices

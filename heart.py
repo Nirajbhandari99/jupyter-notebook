@@ -1,23 +1,12 @@
 """
+Author: Niraj Bhandari and Prajit Shrestha
+Date: 09/20/2025
+CSCI 491, Group 1
+Github:https://github.com/Nirajbhandari99/jupyter-notebook
+
 Heart Disease Risk Prediction Web Application with Machine Learning Workflow,
  Interactive Dashboard, and Chatbot using OpenAI Application Programming Interface (API). 
-
- Instructions
-
-1. Install required libraries:
-   pip install pandas numpy seaborn matplotlib scikit-learn openpyxl
-
-2. Make sure the dataset (heart_data 2.xlsx) is in the same folder as this script.
-   - If using CSV instead, update: pd.read_csv("heart_data 2.csv")
-
-3. Run the script:
-   python heart.py
-
-This script:
-- Cleans and preprocesses the dataset
-- Performs EDA with plots (countplots, heatmaps, histograms)
-- Trains multiple models (Logistic Regression, Decision Tree, Random Forest, etc.)
-- Evaluates results with metrics, ROC curves, and confusion matrices
+ 
 """
 
 
