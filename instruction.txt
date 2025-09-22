@@ -1,13 +1,79 @@
- Instructions
+Instructions to Run the Project
 
-1. Install required libraries:
-   pip install pandas numpy seaborn matplotlib scikit-learn openpyxl
+Install Required Libraries
+Open your visual studio code (or Anaconda Prompt) and run:
 
-2. Make sure the dataset (heart_data.xlsx) is in the same folder as this script.
-   
+pip install pandas numpy seaborn matplotlib scikit-learn openpyxl
 
-This script:
-- Cleans and preprocesses the dataset
-- Performs EDA with plots (countplots, heatmaps, histograms)
-- Trains multiple models (Logistic Regression, Decision Tree, Random Forest, etc.)
-- Evaluates results with metrics, ROC curves, and confusion matrices
+pandas → for dataset handling and preprocessing
+
+numpy → for numerical operations
+
+seaborn & matplotlib → for visualizations
+
+scikit-learn → for machine learning models and evaluation
+
+openpyxl → for reading Excel files
+
+Dataset Location
+Make sure the dataset file "heart_data.xlsx" is in the same folder as the Python script (heart.py).
+If it is located elsewhere, update the path in the code like this:
+
+df = pd.read_excel("path_to/heart_data.xlsx")
+
+What the Script Does
+
+a. Data Preprocessing & Cleaning
+
+Loads the dataset
+
+Handles missing values and normalizes features
+
+Prepares data for model training
+
+b. Exploratory Data Analysis (EDA)
+
+Count plots for categorical data distribution
+
+Heatmaps for feature correlation
+
+Histograms for feature distribution
+
+c. Model Training & Testing
+
+Logistic Regression
+
+Decision Tree Classifier
+
+Random Forest Classifier
+
+Gradient Boosting Classifier
+
+K-Nearest Neighbors (KNN)
+
+Linear Regression
+
+d. Model Evaluation
+
+Accuracy scores
+
+Confusion matrices
+
+Classification reports (precision, recall, F1-score)
+
+ROC curves for performance comparison
+
+How to Run the Code
+
+Step 1: Open VS code 
+Step 2: Navigate to the project folder, make sure heart.py and heart_data.xlsx is in same folder
+Step 3: Run the script
+python heart.py
+
+Expected Output
+
+Console output with model accuracy scores and evaluation metrics
+
+Visualization plots (heatmaps, histograms, ROC curves, etc.)
+
+Clear identification of the best performing model (e.g., Random Forest ~85% accuracy).
